@@ -23,46 +23,46 @@ ul li a {
   color: black;
 }
 .regisbtn button {
-    background-color: #007bff; 
-    color: #ffffff;         
-    font-size: 16px;          
-    font-weight: bold;      
-    padding: 12px 24px;       
-    border: none;             
-    border-radius: 5px;    
-    cursor: pointer;           
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .regisbtn button:hover {
-    background-color: #0056b3; 
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15)
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
-.hero-ui{
+.hero-ui {
   position: relative;
   max-width: 1551px;
-  margin: auto; 
+  margin: auto;
   align-items: center;
 }
-.image img{
+.image img {
   width: 1551px;
 }
 .hero-content {
   position: absolute;
-  top: 25%;         
-  left: 50%;        
+  top: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
-.hero-content h1{
-white-space: nowrap;
-padding-top: 136px;
-padding-bottom: 16px;
+.hero-content h1 {
+  white-space: nowrap;
+  padding-top: 136px;
+  padding-bottom: 16px;
 
- font-size: 80px;
- color: #ffffff;
+  font-size: 80px;
+  color: #ffffff;
 }
-.hero-content p{
+.hero-content p {
   text-align: center;
   font-size: 22px;
   color: #ffffff;
@@ -71,20 +71,208 @@ padding-bottom: 16px;
 .regisbtn2 {
   position: absolute;
   top: 90%;
-  left: 50%;        
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%; 
+  width: 100%;
 }
 
-.regisbtn2 button{
-    background-color: #007bff; 
-    color: #ffffff;         
-    font-size: 24px;          
-    font-weight: bold;      
-    padding: 25px 62px;       
-    border: none;             
-    border-radius: 5px;    
-    cursor: pointer;           
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.regisbtn2 button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 25px 62px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.business,
+.subscription-card {
+  max-width: 1300px;
+  margin: auto;
+}
+ /* <!-- business section --> */
+.header-text{
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px;
+}
+.business-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+}
+.card {
+  background: #fff;
+  width: 600px;
+  height: 420px;
+
+  border-radius: 20px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+.card img {
+  width: 600px;
+  padding-bottom: 10px;
+}
+.card h4,
+h2,
+p {
+  padding: 0px 0px 10px 20px;
+}
+.card h4 {
+  color: #007bff;
+}
+.card p {
+  color: grey;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+/* <!-- subscription section --> */
+.card-header {
+  text-align: center;
+  padding-top: 170px;
+}
+.card-header h1{
+  font-size: 48px;
+}
+.card-header p{
+  font-size: 18px;
+  color: gray;
+  padding: 36px;
+}
+
+.item-card {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.set-card {
+  width: 350px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+.set-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.set-card1 {
+  width: 350px;
+  background: #000000;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+.set-card1:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.card-item p{
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.card-item h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #111827;
+  margin: 10px 0;
+}
+
+.sub-item {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 25px;
+}
+.sub-item li {
+  margin-bottom: 16px;
+  color: #374151;
+}
+
+.sub-item li::marker {
+  color: #2563eb;
+}
+
+.sub-btn {  
+  margin-top: 30px;
+}
+
+.sub-btn button {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #2563eb;
+  background: transparent;
+  color: #2563eb;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub-btn button:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+
+.card-item1 p{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.sub-item1 {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 25px;
+}
+
+.card-item1 h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.sub-item1 li {
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+.sub-btn1 {  
+  margin-top: 30px;
+}
+
+.sub-btn1 button {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #1c7bf7;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub-btn1 button:hover {
+  background: #2563eb;
+  color: #fff;
 }
