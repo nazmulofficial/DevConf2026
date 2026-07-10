@@ -1,0 +1,36 @@
+Create a modern and visually appealing "Innovation Showcase" section for a developer conference website called DevConf 2026.
+The section should include:
+- A centered section heading: "Innovation Showcase"
+- A subtitle: "Explore the Future of Development through live demos, emerging technologies, and hands-on innovation experiences."
+- A responsive 3-column grid layout (2 columns on tablet, 1 column on mobile).
+- Five premium cards with rounded corners, subtle shadows, hover animation, and clean spacing.
+
+Each card must contain:
+- A large circular icon area with an emoji
+- A title
+- A short two-line description
+- A text button saying "Explore →"
+
+Use the following content:
+1.AI Agent Live Demo
+Description: Watch autonomous AI agents solve real-world coding and automation challenges live on stage.
+2.Cloud Lab
+Description: Build, deploy, and scale cloud-native applications using modern DevOps tools.
+3.Security Challenge
+Description: Test your cybersecurity skills through ethical hacking and capture-the-flag competitions.
+4.Edge AI Showcase
+Description: Discover real-time AI applications running efficiently on edge devices.
+
+5.Startup Launch Pad
+Description: Meet innovative startups presenting breakthrough developer tools and products.
+
+Design Requirements:
+- White cards with 20px border radius
+- Soft box shadow
+- Blue and purple accent colors
+- Modern typography using the Inter font
+- Smooth hover effect (lift card and increase shadow)
+- Responsive design using CSS Grid
+- Clean, premium, and professional UI inspired by modern SaaS and technology conference websites.
+
+Generate only semantic HTML and CSS. Do not use Bootstrap or Tailwind CSS. Use plain HTML5 and CSS3 only.
